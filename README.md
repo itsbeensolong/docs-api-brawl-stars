@@ -7,3 +7,5 @@ This documentation will help you get familiar with the resources of the brawl St
 ## REST
 
 **Base Url**: https://github.com/itsbeensolong/api
+
+The base url contains information about all available API's resources. All requests are GET requests and go over https. All responses will return data in json.
