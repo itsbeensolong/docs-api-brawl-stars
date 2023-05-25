@@ -1,2 +1,2 @@
 - [DOCS](/)
-- [ABOUT](/ABOUT)
+- [ABOUT](/ABOUT.md)

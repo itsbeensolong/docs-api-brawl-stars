@@ -14,9 +14,8 @@ The base url contains information about all available API's resources. All reque
     GET http://localhost:8080/api/v1/brawlers
 ```
 
-`````json
+```json
 {
-    "name": "Shelly"
+  "name": "Shelly"
 }
-````
-`````
+```
