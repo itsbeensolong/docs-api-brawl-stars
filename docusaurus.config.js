@@ -6,8 +6,8 @@ const darkCodeTheme = require("prism-react-renderer/themes/dracula");
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: "Api Brawl Stars",
-  tagline: "Dinosaurs are cool",
+  title: "The Api Brawl Stars",
+  tagline: "Brawl Stars Game of Supercell",
   favicon: "img/favicon.ico",
 
   // Set the production url of your site here
@@ -19,7 +19,7 @@ const config = {
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
   organizationName: "facebook", // Usually your GitHub org/user name.
-  projectName: "docusaurus", // Usually your repo name.
+  projectName: "docs-api-brawl-stars", // Usually your repo name.
 
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
@@ -66,7 +66,7 @@ const config = {
       navbar: {
         title: "Api Brawl Stars",
         logo: {
-          alt: "My Site Logo",
+          alt: "brawl Stars Logo",
           src: "img/brawl.svg",
         },
         items: [
@@ -110,7 +110,7 @@ const config = {
             items: [
               {
                 label: "Blog",
-                to: "/blog",
+                to: "/blog/intro",
               },
               {
                 label: "GitHub",
@@ -119,7 +119,6 @@ const config = {
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
       },
       prism: {
         theme: lightCodeTheme,
