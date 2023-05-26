@@ -1,27 +1,41 @@
-# Documentation
+# Website
 
-## Introduccion
+This website is built using [Docusaurus 2](https://docusaurus.io/), a modern static website generator.
 
-This documentation will help you get familiar with the resources of the brawl Stars Api and show you how to make different queries, so that you can get the most out of it.
+### Installation
 
-## REST
-
-**Base Url**: https://github.com/itsbeensolong/api
-
-The base url contains information about all available API's resources. All requests are GET requests and go over https. All responses will return data in json.
-
-```http
-    GET http://localhost:8080/api/v1/brawlers
+```
+$ yarn
 ```
 
-```json
-{
-  "name": "Shelly"
-}
+### Local Development
+
+```
+$ yarn start
 ```
 
-| Encabezado 1 | Encabezado 2 | Encabezado 3 |
-| ------------ | ------------ | ------------ |
-| Celda 1-1    | Celda 1-2    | Celda 1-3    |
-| Celda 2-1    | Celda 2-2    | Celda 2-3    |
-| Celda 3-1    | Celda 3-2    | Celda 3-3    |
+This command starts a local development server and opens up a browser window. Most changes are reflected live without having to restart the server.
+
+### Build
+
+```
+$ yarn build
+```
+
+This command generates static content into the `build` directory and can be served using any static contents hosting service.
+
+### Deployment
+
+Using SSH:
+
+```
+$ USE_SSH=true yarn deploy
+```
+
+Not using SSH:
+
+```
+$ GIT_USER=<Your GitHub username> yarn deploy
+```
+
+If you are using GitHub pages for hosting, this command is a convenient way to build the website and push to the `gh-pages` branch.
