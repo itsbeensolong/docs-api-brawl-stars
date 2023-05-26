@@ -74,9 +74,9 @@ const config = {
             type: "docSidebar",
             sidebarId: "tutorialSidebar",
             position: "left",
-            label: "DOCS",
+            label: "Docs",
           },
-          { to: "/about", label: "ABOUT", position: "left" },
+
           {
             href: "https://github.com/itsbeensolong/docs-api-brawl-stars",
             label: "GitHub",
@@ -102,19 +102,6 @@ const config = {
               {
                 label: "Twitter",
                 href: "https://twitter.com/castrogarciajs",
-              },
-            ],
-          },
-          {
-            title: "More",
-            items: [
-              {
-                label: "About",
-                to: "/about",
-              },
-              {
-                label: "GitHub",
-                href: "https://github.com/facebook/docusaurus",
               },
             ],
           },

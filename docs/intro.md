@@ -2,46 +2,30 @@
 sidebar_position: 1
 ---
 
-# Tutorial Intro
+# Documentation
 
-Let's discover **Docusaurus in less than 5 minutes**.
+This documentation will help you get familiar with the resources of the brawl Stars Api and show you how to make different queries, so that you can get the most out of it.
 
 ## Getting Started
 
-Get started by **creating a new site**.
+### Rest
 
-Or **try Docusaurus immediately** with **[docusaurus.new](https://docusaurus.new)**.
+**Base Url**: https://github.com/itsbeensolong/api
 
-### What you'll need
+The base url contains information about all available API's resources. All requests are GET requests and go over https. All responses will return data in json.
 
-- [Node.js](https://nodejs.org/en/download/) version 16.14 or above:
-  - When installing Node.js, you are recommended to check all checkboxes related to dependencies.
-
-## Generate a new site
-
-Generate a new Docusaurus site using the **classic template**.
-
-The classic template will automatically be added to your project after you run the command:
-
-```bash
-npm init docusaurus@latest my-website classic
+```rest
+GET https://rickandmortyapi.com/api
 ```
 
-You can type this command into Command Prompt, Powershell, Terminal, or any other integrated terminal of your code editor.
-
-The command also installs all necessary dependencies you need to run Docusaurus.
-
-## Start your site
-
-Run the development server:
-
-```bash
-cd my-website
-npm run start
+```json
+{
+  "Brawlers": "https://api.brawlstars"
+}
 ```
 
-The `cd` command changes the directory you're working with. In order to work with your newly created Docusaurus site, you'll need to navigate the terminal there.
+## Info and pagination
 
-The `npm run start` command builds your website locally and serves it through a development server, ready for you to view at http://localhost:3000/.
+The API will automatically paginate the responses. You will receive up to 20 documents per page.
 
-Open `docs/intro.md` (this page) and edit some lines: the site **reloads automatically** and displays your changes.
+Each resource contains an info object with information about the response.
