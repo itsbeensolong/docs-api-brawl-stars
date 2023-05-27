@@ -8,7 +8,7 @@ const darkCodeTheme = require("prism-react-renderer/themes/dracula");
 const config = {
   title: "The Api Brawl Stars",
   tagline: "Brawl Stars Game of Supercell",
-  favicon: "img/favicon.ico",
+  favicon: "img/brawl.svg",
 
   // Set the production url of your site here
   url: "https://your-docusaurus-test-site.com",
