@@ -1,5 +1,5 @@
 ---
-title: "Principle"
+title: Principle
 ---
 
 ## Rest
